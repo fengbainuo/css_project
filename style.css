@@ -1,0 +1,15 @@
+header {
+    background-color: #1F2937;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.links {
+    display: flex;
+}
+
+.links p {
+    flex: 1;
+}
