@@ -1,17 +1,20 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
 
 .header-container {
+    padding-top: 10px;
     background-color: #1F2937;
     padding-bottom: 50px;
 }
 
 .flex-container {
+    align-items: stretch;
     display: flex;
     width: 70%;
     margin: auto;
+    margin-bottom: 20px;
     gap: 10px;
 }
 
@@ -39,25 +42,22 @@ body {
 .hero-text {
     padding: 0;
     display: flex;
+    align-self: stretch;
+    align-content: stretch;
     flex-direction: column;
+    justify-content: space-evenly;
     flex: 1;
-    border: 1px solid black;
 }
 
 .title {
-    border: 2px solid white;
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
-    margin-bottom: 10px;
 }
 
 .hero-secondary {
-    border: 2px solid white;
     color: #e5e7eb;
     font-size: 18px;
-    margin-top: 5px;
-    margin-bottom: 10px;
 }
 
 button{
@@ -73,7 +73,7 @@ button{
 }
 
 .hero-image {
-    border: 1px solid black;
+    margin: 0;
     display: flex;
     flex: 1;
     justify-content: flex-end;
